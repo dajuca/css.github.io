@@ -1,0 +1,42 @@
+button{
+ transform: translate(-50%, -50%);
+ background: none;
+ color : #223047;
+ width: 280px ;
+ height: 40px;
+ border-radius: 1px solid #2c5364;
+ font-size: 18px;
+ border-radius: 4px;
+ transition: .6s;
+ overflow: hidden;
+}
+
+
+button:focus {
+  outline: none;
+}
+
+button:before {
+  content: '';
+background-color: rgba(255, 255, 255, .5);
+width: 30px;
+height: 100%;
+left: 30px;
+top:0;
+opacity: 0;
+filter: blur(30px);
+transform: translate(-100px) scaleX(-15deg);
+color: white;
+}
+
+button:hover {
+  background: #223047;
+  cursor:pointer;
+  color:white;
+}
+
+button:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: .7s;
+}

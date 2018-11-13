@@ -1,0 +1,33 @@
+footer
+{
+  background-color: #223047;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+footer img
+{
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+footer img:hover
+{
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+footer li
+{
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer_text{
+  color:white;
+}
